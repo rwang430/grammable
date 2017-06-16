@@ -48,6 +48,15 @@ gem 'simple_form'
 #authentication and authorization gem
 gem 'devise'
 
+#allow adding pictures
+gem 'carrierwave', '~> 1.0'
+
+#secure sensitive information
+gem 'figaro'
+
+#carrierwave linked with AWS S3
+gem "fog-aws"
+
 group :development, :test do
   # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug', platform: :mri
